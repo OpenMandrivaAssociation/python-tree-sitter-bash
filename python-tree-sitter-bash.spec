@@ -1,13 +1,13 @@
 Name:		python-tree-sitter-bash
 Version:	0.25.1
-Release:	1
+Release:	2
 Summary:	Tree-sitter bash grammar (Python bindings)
 License:	MIT
 Group:		Development/Python
 URL:		https://pypi.org/project/tree-sitter-bash
 Source0:	https://files.pythonhosted.org/packages/8e/0e/f0108be910f1eef6499eabce517e79fe3b12057280ed398da67ce2426cba/tree_sitter_bash-0.25.1.tar.gz
 BuildRequires:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	clang
